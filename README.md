@@ -1,7 +1,7 @@
 # node-wistia
 
-[![downloadsBadge](https://img.shields.io/npm/dt/wistia.js?style=for-the-badge)](https://npmjs.com/wistia.js)
-[![versionBadge](https://img.shields.io/npm/v/wistia.js?style=for-the-badge)](https://npmjs.com/wistia.js)
+[![downloadsBadge](https://img.shields.io/npm/dt/node-wistia?style=for-the-badge)](https://npmjs.com/node-wistia)
+[![versionBadge](https://img.shields.io/npm/v/node-wistia?style=for-the-badge)](https://npmjs.com/node-wistia)
 
 #### Includes
 
