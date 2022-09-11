@@ -1,4 +1,4 @@
-# Wistia.js
+# node-wistia
 
 [![downloadsBadge](https://img.shields.io/npm/dt/wistia.js?style=for-the-badge)](https://npmjs.com/wistia.js)
 [![versionBadge](https://img.shields.io/npm/v/wistia.js?style=for-the-badge)](https://npmjs.com/wistia.js)
@@ -12,7 +12,7 @@
 --------------------------------------
 
 ```bash
-npm install wistia.js
+npm install node-wistia
 ```
 
 ## Usages
@@ -21,7 +21,7 @@ npm install wistia.js
 ### Upload Video
 
 ```js
-const Wistia = require('wistia.js');
+const Wistia = require('node-wistia');
 const fs = require('fs');
 
 let wistia = new Wistia('****************************************************************');
