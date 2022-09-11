@@ -9,14 +9,12 @@
 - Upload API [Wistia upload API docs](https://wistia.com/doc/upload-api)
 
 ## Installation
---------------------------------------
 
 ```bash
 npm install node-wistia
 ```
 
 ## Usages
---------------------------------------
 
 ### Upload Video
 
