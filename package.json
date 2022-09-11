@@ -1,0 +1,32 @@
+{
+  "name": "wistia",
+  "version": "1.0.0",
+  "description": "A Node.js wrapper for the Wistia API. Upload your videos to Wistia and get your account data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": {
+    "name": "Aronshire",
+    "email": "aronshire@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aronshire/wistia.js.git"
+  },
+  "keywords": [
+    "wistia",
+    "api",
+    "video",
+    "upload",
+    "video upload"  
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aronshire/wistia.js/issues"
+  },
+  "homepage": "https://github.com/Aronshire/wistia.js#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
