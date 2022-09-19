@@ -1,6 +1,6 @@
 {
   "name": "node-wistia",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Node.js wrapper for the Wistia API. Upload your videos to Wistia and get your account data",
   "main": "index.js",
   "scripts": {

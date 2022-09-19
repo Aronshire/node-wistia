@@ -4,7 +4,7 @@ const sendRequest = require('./sendRequest');
  * @Module node-wistia
  * @description A Node.js wrapper for the Wistia API.
  * @author Aronshire
- * @version 1.0.1
+ * @version 1.0.3
  * @license MIT
  */
 

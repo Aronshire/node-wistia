@@ -39,13 +39,12 @@ async function uploadVideo() {
 
 ```js
 const Wistia = require('node-wistia');
-const fs = require('fs');
 
 let wistia = new Wistia('****************************************************************');
 
 async function uploadVideo() {
     let data = await wistia.uploadVideo({
-        url: fs.writeFileSync('test.mp4'),
+        url: 'https://www.website.com/test.mp4',
         name: 'Test Video Uploaded With File',
         project_id: "*********"
     })
