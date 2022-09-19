@@ -18,6 +18,7 @@ npm install node-wistia
 
 ### Upload Video
 
+#### With File
 ```js
 const Wistia = require('node-wistia');
 const fs = require('fs');
@@ -27,13 +28,30 @@ let wistia = new Wistia('*******************************************************
 async function uploadVideo() {
     let data = await wistia.uploadVideo({
         file: fs.writeFileSync('test.mp4'),
-        name: 'Test Video Uploaded With File'
+        name: 'Test Video Uploaded With File',
+        project_id: "*********"
     })
     console.log(data)
 };
 ```
 
-If you want to upload video with url, enter url key instead of file.
+#### With URL
+
+```js
+const Wistia = require('node-wistia');
+const fs = require('fs');
+
+let wistia = new Wistia('****************************************************************');
+
+async function uploadVideo() {
+    let data = await wistia.uploadVideo({
+        url: fs.writeFileSync('test.mp4'),
+        name: 'Test Video Uploaded With File',
+        project_id: "*********"
+    })
+    console.log(data)
+};
+```
 
 ### Get Account Datas
 
